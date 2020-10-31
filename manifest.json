@@ -1,6 +1,18 @@
 {
     "name": "New Tab Sports",
-    "version": "1.0",
+    "version": "0.1",
     "description": "Sports at a glance when you open a new tab.",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtabsports.html"
+    },
     "manifest_version": 2
-  }
+}

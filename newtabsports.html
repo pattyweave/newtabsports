@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>New tab</title>
+    <style>
+        .card {
+            width: 100px;
+            height: 100px;
+            border-radius: 10%;
+            box-shadow: 2px 2px 2px 0px lightgray;
+            background-color: white;
+            color: black;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .logo {
+            width: 30px;
+            padding-top: 10px;
+        }
+
+        #scores {
+            padding-left: 15vw;
+            width: 50vw;
+            
+        }
+
+        .col {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .row {
+            padding: 10px 0 10px 0;
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-column-gap: 10px;
+        }
+
+        .light {
+            color: white;
+        }
+
+        body {
+            padding-top: 10vh;
+            background-color: #1a1c1a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="scores">
+        <div class="row">
+            <div class="col">
+                <div class="card center">
+                    <img class="logo" src="img/cleveland.png">
+                    <h1>7</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="center">
+                    <h1 class="light">@</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card center">
+                    <img class="logo" src="img/yankees.png">
+                    <h1>3</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card center">
+                    <img class="logo" src="img/cavs.png">
+                    <h1>102</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="center">
+                    <h1 class="light">@</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card center">
+                    <img class="logo" src="img/nets.png">
+                    <h1>91</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card center">
+                    <img class="logo" src="img/warriors.png">
+                    <h1>112</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="center">
+                    <h1 class="light">@</h1>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card center">
+                    <img class="logo" src="img/heat.png">
+                    <h1>113</h1>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+</body>
+
+</html>
